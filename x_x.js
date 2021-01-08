@@ -1,4 +1,4 @@
-var xpth = '//*[@id="navBar"]/ul/li[7]/a';
+var xpth = '/html/body/main/header/div/nav/div/div[1]/ul/li[7]/a';
 var man = document.evaluate(xpth, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 var men = ["munoadmin","Admin","Super"];
 if (men.includes(man.text)) {
